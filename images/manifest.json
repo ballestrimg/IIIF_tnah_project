@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 863,
+    "id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau/canvas/",
+    "label" : {
+      "none" : [ "chapeau" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 27,
+              "height" : 18
+            }, {
+              "width" : 54,
+              "height" : 36
+            }, {
+              "width" : 108,
+              "height" : 72
+            }, {
+              "width" : 216,
+              "height" : 144
+            }, {
+              "width" : 432,
+              "height" : 287
+            }, {
+              "width" : 863,
+              "height" : 573
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 863,
+            "@id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 573
+          } ],
+          "format" : "image/jpeg",
+          "width" : 863,
+          "id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 573
+        },
+        "target" : "https://ballestrimg.github.io/IIIF_tnah_project/images/chapeau/canvas/"
+      } ]
+    } ],
+    "height" : 573
+  }, {
     "width" : 381,
     "id" : "https://ballestrimg.github.io/IIIF_tnah_project/images/amulette/canvas/",
     "label" : {
